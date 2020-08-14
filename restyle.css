@@ -1,0 +1,555 @@
+body{
+   margin: 0px;
+       font-family: sans-serif;
+    font-size: 30px;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+
+section:nth-child(2n){
+	background-color: #f7f7f7;
+}
+
+section:nth-child(2n+1){
+	background-color: white;
+}
+
+#body-header{
+	height: 65vh;
+	opacity: 0.96;
+	margin-top: -20px;
+        background-image:url(mouse.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+.horizontal-list{
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.horizontal-list li{
+       display: inline-block;
+       margin: 20px 20px 20px 0;
+	}
+
+	.horizontal-list li a{
+       color: white;
+         text-decoration: none;
+	}
+
+	.nav-menu li a{
+	
+
+
+	}
+
+	.nav-menu li a:hover{
+       color: lightgrey;
+     border-bottom: 2px solid darkgrey;
+	}
+
+	#name-social-container{
+		margin-top: 20vh;
+	}
+	#my-name{
+		color:white;
+		margin-bottom: 0.5rem;
+		font-weight: 700;
+		font-size: 3rem;
+		letter-spacing: 0.1rem;
+	}
+	.text-centre{
+		text-align: center;
+	}
+
+	.social-icons li {
+
+}
+
+.social-icons li :hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a i {
+    width: 1rem;
+    padding: 8px;
+        border-radius: 30%;
+}
+
+/*About Section*/
+
+#about{
+    height: auto;
+    width: 85%;
+}
+#my-image img{
+    box-shadow: 0px 0px 6px 4px lightgrey;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 43vw;
+    position: relative;
+    margin-top:-80px;
+    height: 12rem;
+    width: 12rem;
+    border:2px solid white;
+}
+
+
+#aboutme p{
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	font-style: oblique;
+	margin: 10px 70px;
+}
+
+/*SKILLS*/
+
+
+#skills h1{
+      text-align: center;
+      font-weight: lighter;
+      font-family: sans-serif;
+      color: #121255;
+      margin-top: 60px;
+}
+#skils{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.skillset{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+	width: 80%;
+	flex-wrap: wrap;
+	margin-bottom: 80px;
+	margin-top:40px;
+}
+.container{
+	background-color: darkgrey;
+	width:200px;
+	height: 33px;
+	border-radius: 20px;
+	margin-left: 45px;
+	margin-top: 40px;
+}
+#cpp{
+	width: 80%;
+	background-color: #2c2c80;
+}
+#cpp h6{
+	color: white;
+	padding: 4px;
+	margin-left: 4px;
+}
+.common{
+	border: 0px;
+	height: 100%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-top: -47px;
+	box-shadow: -1px 0px 8px 0px black;
+}
+#c{
+   width: 60%;
+   background-color:#d28019;  
+}
+
+#c h6{
+	color: white;
+	padding: 4px;
+	margin-left: 4px;
+}
+
+#HTML{
+   width: 80%;
+   background-color:#781a0b;  
+}
+
+#HTML h6{
+	color: white;
+	padding: 4px;
+	margin-left: 4px;
+}
+
+#css{
+      width: 70%;
+	background-color: #0d628a;
+}
+
+#css h6{
+    color: white;
+	padding: 4px;
+	margin-left: 4px;
+}
+
+#java{
+      width: 70%;
+	background-color: #121245;
+}
+
+#java h6{
+    color: white;
+	padding: 4px;
+	margin-left: 4px;
+}
+
+#python{
+      width: 50%;
+	background-color: #096f66c7;
+}
+
+#python h6{
+    color: white;
+	padding: 4px;
+	margin-left: 4px;
+}
+
+
+/*........Portfolio..........*/
+
+#portfolio h1{
+      text-align: center;
+      font-weight: lighter;
+      font-family: sans-serif;
+      color: #121255;
+      margin-top: 60px;
+}
+#portfolio{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+ #projects{
+ 	width: 80%;
+ 	display: flex;
+ 	flex-direction: row;
+ 	margin-left: 20px;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ 	margin-top: 30px;
+ }
+
+.img img{
+	width: 200px;
+	height: 200px;
+}
+.img{
+      padding: 40px;
+}
+
+#frontend h6{
+	color: blue;
+	text-align: center;
+	margin-top: -6px;
+}
+
+#backend h6{
+	color: blue;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: -24px;
+}
+
+#des h6{
+	color: blue;
+	text-align: center;
+	margin-top: -6px;
+	
+}
+
+#yes h6{
+	color: blue;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+
+#no h6{
+	color: blue;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+
+
+#node h6{
+	color: blue;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+
+/*.....contact.....*/
+
+
+#contact{
+	height: auto;
+	background-image: linear-gradient(to top right,#1b256fa6,#0a1880);
+}
+
+#contact h1{
+	font-family: sans-serif;
+    margin-top: 80px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    margin-top: -50px;
+}
+
+#contact-me{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: baseline;
+	margin-top: -40px;
+}
+
+#details form input,#details form textarea{
+     position: relative;
+    background-color: transparent;
+    font-family: sans-serif;
+    color: white;
+    width: 80%;
+    line-height: 50px;
+    font-size: 1.5rem;
+    border:0px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+
+}
+#address{
+	  font-family: sans-serif;
+    word-spacing: 1px;
+    line-height: 25px;
+    margin-right: 150px;
+    color: white;
+    font-size: 1.1rem;
+    width:400px;
+    height: auto;
+}
+
+#details{
+	margin-left: 120px;
+	padding: 30px;
+}
+
+#details button{
+    width: 60%;
+    margin-top: 40px;
+    word-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-size: 1.1rem;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 150px;
+}
+
+#contact .horizontal-list{
+    margin-top: 10px;
+    margin-left: 57%;
+}
+#contact .horizontal-list li{
+    margin: 0px 10px 10px 0px;
+}
+
+
+/*.....Education,Experience.......*/
+
+#education,#experience{
+	 height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#education h1,#experience h1{
+	text-align: center;
+      font-weight: lighter;
+      font-family: sans-serif;
+      color: #121255;
+      margin-top: 60px;
+}
+
+#my-education{
+	 margin-top: 50px;
+    margin-left: 10%;
+    position: relative;
+    width:80%;
+    height: auto;
+}
+
+.boxes{
+
+    margin: 5px;
+    position: relative;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+}
+
+.boxes:nth-child(2n){
+    left: 53%;
+}
+.boxes:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 110%;
+    border-radius: 50%;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: lightgrey;
+    z-index: 1;
+}
+.boxes:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: 107%;
+    border-radius: 50%;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: lightgrey;
+    z-index: 1;
+}
+.boxes p{
+    color: grey;
+    font-family: sans-serif;
+    margin-top: -10px;
+    font-size: 18px;
+    margin-right: 61px;
+    text-align: right;
+}
+ .boxes .date{
+    margin-left: 187px;
+    margin-top: -42px;
+    margin-bottom: 35px;
+    font-size: 15px;
+    text-align: right;
+}
+.boxes h4{
+    text-align: right;
+    color: #36368e;
+    margin-right: 59px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: -10px;
+}
+.boxes h6{
+    text-align: right;
+    color: orange;
+    margin-right: 62px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: -44px;
+}
+
+
+
+.timeline-divider{
+    /*margin-top: -900px;*/
+    position: absolute;
+    height: 80%;
+    width: 0;
+    border:1px dashed #0096fa6b;
+    top: 5%;
+    left:50%;
+}
+.timeline-traveler{
+    position: sticky;
+    top: 10%;
+    transform: rotate(90deg);
+    z-index: 2;
+    color: #36368e;
+}
+
+.fa-bus-alt{
+    transform: rotate(-90deg);
+}
+
+#ed h6{
+    margin-top: -30px;
+    text-align: right;
+    margin-right: 13%;
+}
+#ed #piet::before{
+    content: '';
+    background-image: url(piet.png);
+    display: inline-block;
+    position: absolute;
+    left: 13%;
+    top: -11%;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+#ed #cninjas::before{
+    content: '';
+    background-image: url(cdnn.png);
+    display: inline-block;
+    position: absolute;
+    left: 11%;
+    top: -11%;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+
+#ed #maps::before{
+    content: '';
+    background-image: url(maps.jfif);
+    display: inline-block;
+    position: absolute;
+    left: 13%;
+    top: -11%;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+
+#ed #map::before{
+    content: '';
+    background-image: url(maps.jfif);
+    display: inline-block;
+    position: absolute;
+    left: 11%;
+    top: -11%;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+
+.boxes h4::before{
+    content: '';
+    background-image: url(https://www.codingelements.com/images/company-logos/sih.png);
+    display: inline-block;
+    position: absolute;
+    left: 6%;
+    top: -5%;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+
+}
